@@ -1,0 +1,30 @@
+{
+    "name": "tifon/sbif",
+    "description": "Biblioteca para ",
+    "homepage": "http://github.com/tifon-/sbif",
+    "license": "MIT",
+    "keywords": ["sbif", "api", "rest", "requests"],
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Nicolas Moncada",
+            "email": "moncada.nicolas@gmail.com"
+        },
+        {
+            "name": "TIFON",
+            "homepage": "http://tifon.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "nategood/httpful": "~0.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tifon\\Sbif\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
