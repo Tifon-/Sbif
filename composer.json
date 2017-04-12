@@ -1,6 +1,6 @@
 {
     "name": "tifon/sbif",
-    "description": "Biblioteca para ",
+    "description": "Biblioteca PHP que facilita la integración con la API de la SBIF",
     "homepage": "http://github.com/tifon-/sbif",
     "license": "MIT",
     "keywords": ["sbif", "api", "rest", "requests"],
