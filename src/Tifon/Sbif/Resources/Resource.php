@@ -141,7 +141,7 @@ abstract class Resource {
 
 
         if ($response->code != 200) {
-            throw new CodeErrorApiException($url, $this->response->body->{Sbif::ERROR_MESSAGE_KEY}, $this->response->body->{Sbif::CODE_ERROR_KEY});
+            throw new CodeErrorApiException($url, $response->body->{Sbif::ERROR_MESSAGE_KEY}, $response->body->{Sbif::CODE_ERROR_KEY});
         }
 
         return new Result($this, $response);
