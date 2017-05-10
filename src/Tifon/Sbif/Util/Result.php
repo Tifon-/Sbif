@@ -25,7 +25,7 @@ class Result implements \Iterator{
 
     public function fetchAll() {
 
-        return $data;
+        return $this->data;
     }
 
 
